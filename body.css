@@ -6,6 +6,13 @@ Body {
 }
 /* index.html */
 
+span#contspan {
+	top: 50px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
 div.left-tile {
 	position: relative;
 	left: 20%;
@@ -57,14 +64,15 @@ div.right-tile:Hover {
 
 div.aboutbodydiv {
 	position: absolute;
-	margin: 5%;
-	width: 50%;
+	margin-top: 5%;
+	width: 75%;
+	left:13%;
 }
 
 div#divleft {
-	display: inline;
+    float: left;
 }
 
 div#divright {
-	display: inline;
+	float: left;
 }
