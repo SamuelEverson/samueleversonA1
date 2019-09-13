@@ -1,0 +1,33 @@
+ul.footlist {
+	text-align: center;
+	padding: 10px;
+	list-style: none;
+	margin: 0;
+}
+
+li.footlist a {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family: Arial, Veranda, Serif;
+}
+
+div.footcopy {
+	text-align: center;
+	font-family: Arial, Veranda, Serif;
+}
+
+.footspan {
+	display: block;
+	background-color: #201f21;
+	position: fixed;
+	bottom: 0%;
+	width: 100%;
+	height: 100px;
+}
+
+.footcol {
+	width: 33.3%;
+	float: left;
+	padding-top: 3%;
+}
+

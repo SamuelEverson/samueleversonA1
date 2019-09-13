@@ -1,0 +1,29 @@
+ul.navlist {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	background-color: #201f21;
+}
+
+li.navlist {
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 16.66%;
+}
+
+li.navlist a {
+	font-family: Arial, Veranda, Serif;
+	color: white;
+	display: block;
+	padding: 15px 15px;
+	text-align: center;
+	text-decoration: none;
+	border-right: 1px solid white;
+}
+
+li.navlist a:hover {
+	background-color: #00CC00;
+	color: black;
+}
