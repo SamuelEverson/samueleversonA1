@@ -13,9 +13,11 @@ div.maindiv {
 /* index.html */
 
 span#contspan {
+	left:10%;
 	top: 100px;
-    width: 100%;
+    width: 50%;
     height: 100%;
+	display: flow-root;
     position: relative;
 }
 
@@ -25,7 +27,7 @@ div.left-tile {
 	background-color: #670f94;
 	transform: skew(-20deg);
 	height: 50px;
-	width: 50%;
+	width: 100%;
     vertical-align: middle;
 	text-align: center;
 	line-height: 50px;
@@ -42,7 +44,7 @@ div.right-tile {
 	background-color: #670f94;
 	transform: skew(-20deg);
 	height: 50px;
-	width: 50%;
+	width: 100%;
     vertical-align: middle;
 	text-align: center;
 	line-height: 50px;
