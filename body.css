@@ -4,6 +4,12 @@ Body {
 	font-family: Arial, Veranda, Serif; 
 	background-color: #f5f2f2;
 }
+
+div.maindiv {
+	position: absolute;
+	width: 75%;
+	left:13%;
+}
 /* index.html */
 
 span#contspan {
@@ -62,11 +68,8 @@ div.right-tile:Hover {
 
 /* about.html */
 
-div.aboutbodydiv {
-	position: absolute;
+div#aboutbodydiv {
 	margin-top: 5%;
-	width: 75%;
-	left:13%;
 }
 
 div#divleft {
@@ -76,3 +79,7 @@ div#divleft {
 div#divright {
 	float: left;
 }
+
+/*Interest in IT*/
+
+	
